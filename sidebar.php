@@ -6,8 +6,8 @@
  * Time: 1:08 PM
  */?>
 
-<div class="small-4 columns">
-    <ul class="nav-bar vertical">
+<div class="small-2  columns" id="sidebar-wrapper">
+    <ul class="side-nav">
         <li><a href="index.php">Home</a></li>
         <li><a href="portfolio.php">Portfolio</a></li>
         <li><a href="about.php">About</a></li>
