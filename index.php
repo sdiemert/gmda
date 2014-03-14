@@ -28,8 +28,8 @@
                         <hr>
                     </ul>
                 </div>
-                <div class="col-sm-10">
-                    <p>SOME TEXT HERE</p>
+                <div class="col-sm-10" id="title-image-container">
+                    <img class="title-image" id="title-image-1" src="img/title-image-1.png"/>
                 </div>
             </div>
 
@@ -37,4 +37,18 @@
             <?php include("footer.php");?>
         </div>
     </body>
+    <script type="application/javascript">
+        var x = document.getElementById("sidebar").offsetHeight;
+        var y = document.getElementById("title-image-container").offsetHeight;
+
+        console.debug(x);
+        console.debug(y);
+
+
+        if(x < y){
+            document.getElementById("sidebar").style.height = y;
+        }
+
+
+    </script>
 </html>

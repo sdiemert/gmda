@@ -8,3 +8,4 @@
 
 <link href="css/bootstrap.css" rel="stylesheet"/>
 <link href="css/style.css" rel="stylesheet"/>
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
