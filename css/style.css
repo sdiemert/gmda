@@ -1,29 +1,13 @@
-body, p, a {
-    font-family: calibri;
-}
-
-h1, h2, h3, h4, h5 {
+.title {
     font-family: arial;
+    font-style: italic;
 }
 
-h3.page-title{
-  font-style:italic;
-  font-weight:bold;
-}
-
-.side-nav li{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.side-nav li a {
-    font-size: 18px;
-}
-
-.side-nav li a:not(.button){
-    color: black;
-}
-
-#sidebar-wrapper{
+#sidebar{
     border-right: 1px solid black;
+    text-align: right;
+}
+
+#sidebar a{
+    color: black;
 }
